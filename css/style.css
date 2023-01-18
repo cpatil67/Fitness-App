@@ -1,0 +1,42 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body{
+  --main-color: #283526;
+  --primry-color: #888888;
+  --button-background: #4b709e;
+  --primary-button-background: #fe7649;
+  --background-color: #f0f7ff;
+}
+
+h1,h2{
+  font-family: 'Avenit Lt Std';
+  color: var(--main-color);
+}
+
+h3,h4{
+  font-family: 'muli';
+  color: var(--main-color);
+}
+
+h3{
+  font-size: 2.2rem;
+  font-weight: 750;
+  line-height: 6.6rem;
+  text-transform: capitalize;
+
+}
+
+p,a,li,button{
+  font-family: 'muli';
+}
+
